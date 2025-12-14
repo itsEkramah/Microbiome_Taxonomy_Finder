@@ -1,75 +1,97 @@
-# Microbiome Taxonomy Finder
+Microbiome Taxonomy Finder
 
-A professional bioinformatics tool for automated retrieval, visualization, and comparison of microbial taxonomic lineages using NCBI databases.
+A cutting-edge bioinformatics tool designed for the automated retrieval, visualization, and comparison of microbial taxonomic lineages using NCBI databases.
 
-## 🚀 Features
+🚀 Features
 
-- **Taxonomic Search**: Instantly look up microbial species by name using real-time NCBI database integration.
-- **Detailed Lineage**: View complete taxonomic hierarchies from kingdom to strain.
-- **Interactive Visualizations**:
-  - **Taxonomy Trees**: Explore lineage relationships visually.
-  - **Data Tables**: comprehensive views of genome statistics and metadata.
-- **Comparison View**: Compare multiple species side-by-side to analyze differences in lineage and characteristics.
-- **Export Capabilities**: Download taxonomic data and visualizations for research and presentations.
-- **Responsive Design**: Modern, clean interface optimized for both desktop and tablet use.
+Taxonomic Search: Effortlessly search for microbial species by name, with real-time integration from NCBI’s vast database.
 
-## 🛠️ Tech Stack
+Complete Lineage Information: Access full taxonomic hierarchies, from the kingdom level down to the specific strain.
 
-- **Framework**: React 18 with TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS, Shadcn UI
-- **State Management**: TanStack Query
-- **Charts & Visualization**: Recharts, D3
-- **Icons**: Lucide React
-- **API**: NCBI Taxonomy and Genome Databases
+Interactive Visualizations:
 
-## 📦 Installation
+Taxonomy Trees: Visually explore relationships between different microbial species.
 
-Prerequisites: Node.js (v18 or higher recommended) and npm (or bun/yarn).
+Data Tables: Detailed tables of genome statistics and associated metadata for in-depth analysis.
 
-1.  **Clone the repository**
-    ```bash
-    git clone <repository-url>
-    cd microbe-navigator
-    ```
+Comparison Tool: Compare multiple species side-by-side to identify differences in taxonomic lineage and characteristics.
 
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
+Export Functionality: Download taxonomic data and visualizations for further analysis, research, or presentation.
 
-## 🏃‍♂️ Usage
+Responsive UI: A sleek, modern interface optimized for both desktop and tablet devices.
 
-### Development Server
-Start the local development server with hot-reload:
-```bash
+🛠️ Tech Stack
+
+Frontend Framework: React 18 with TypeScript
+
+Build Tool: Vite
+
+Styling: Tailwind CSS, Shadcn UI
+
+State Management: TanStack Query
+
+Charts & Visualizations: Recharts, D3.js
+
+Icons: Lucide React
+
+API: NCBI Taxonomy and Genome Databases for retrieving and processing microbial data
+
+📦 Installation
+Prerequisites
+
+Ensure that you have Node.js (v18 or higher) and npm (or bun/yarn) installed on your machine.
+
+Clone the repository:
+
+git clone <repository-url>
+cd microbiome-taxonomy-finder
+
+
+Install dependencies:
+
+npm install
+
+🏃‍♂️ Usage
+Development Server
+
+To start the local development server with hot-reloading enabled, run:
+
 npm run dev
-```
-Open [http://localhost:8080](http://localhost:8080) in your browser (port may vary if 8080 is taken, check terminal output).
 
-### Production Build
-Create an optimized production build:
-```bash
+
+Navigate to http://localhost:8080
+ in your browser (port may vary, check terminal output for details).
+
+Production Build
+
+To create a production-ready optimized build:
+
 npm run build
-```
-The output will be in the `dist/` directory.
 
-### Preview Production Build
-Locally preview the production build:
-```bash
+
+The build files will be placed in the dist/ directory.
+
+Preview Production Build
+
+To locally preview the production build before deployment:
+
 npm run preview
-```
 
-## 🤝 Contributing
+🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions from the community! If you'd like to contribute, please follow these steps:
 
-1.  Fork the project
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+Fork the repository.
 
-## 📄 License
+Create a new feature branch (git checkout -b feature/YourFeature).
 
-This project is open source and available under the [MIT License](LICENSE).
+Make your changes and commit them (git commit -m 'Add some feature').
+
+Push to your branch (git push origin feature/YourFeature).
+
+Open a Pull Request.
+
+📄 License
+
+This project is open-source and available under the MIT License
+.
