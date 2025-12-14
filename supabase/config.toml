@@ -1,0 +1,4 @@
+project_id = "fapbbkgqmmbfqcoplscc"
+
+[functions.ncbi-lookup]
+verify_jwt = false
